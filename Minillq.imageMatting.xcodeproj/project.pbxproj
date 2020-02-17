@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9288607C23FA731900642EBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9288607B23FA731900642EBD /* AppDelegate.swift */; };
+		9288608023FA731900642EBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9288607F23FA731900642EBD /* ViewController.swift */; };
+		9288608323FA731900642EBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9288608123FA731900642EBD /* Main.storyboard */; };
+		9288608523FA731A00642EBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9288608423FA731A00642EBD /* Assets.xcassets */; };
+		9288608823FA731A00642EBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9288608623FA731A00642EBD /* LaunchScreen.storyboard */; };
+		C3BBE2A6F6F760616BB62CCB /* Pods_Minillq_imageMatting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95000F010C20BB1D0684DCD9 /* Pods_Minillq_imageMatting.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45A23E9D640A911236630048 /* Pods-Minillq.imageMatting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minillq.imageMatting.release.xcconfig"; path = "Target Support Files/Pods-Minillq.imageMatting/Pods-Minillq.imageMatting.release.xcconfig"; sourceTree = "<group>"; };
+		7E9E4DAEF8349A7FC863379F /* Pods-Minillq.imageMatting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Minillq.imageMatting.debug.xcconfig"; path = "Target Support Files/Pods-Minillq.imageMatting/Pods-Minillq.imageMatting.debug.xcconfig"; sourceTree = "<group>"; };
+		9288607823FA731900642EBD /* Minillq.imageMatting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minillq.imageMatting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9288607B23FA731900642EBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9288607F23FA731900642EBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9288608223FA731900642EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9288608423FA731A00642EBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9288608723FA731A00642EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9288608923FA731A00642EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95000F010C20BB1D0684DCD9 /* Pods_Minillq_imageMatting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Minillq_imageMatting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9288607523FA731900642EBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3BBE2A6F6F760616BB62CCB /* Pods_Minillq_imageMatting.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9288606F23FA731900642EBD = {
+			isa = PBXGroup;
+			children = (
+				9288607A23FA731900642EBD /* Minillq.imageMatting */,
+				9288607923FA731900642EBD /* Products */,
+				C8CB3F9214FDB165135E2D4F /* Pods */,
+				EC3B93439ABCBFDD1E5C7AA0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9288607923FA731900642EBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9288607823FA731900642EBD /* Minillq.imageMatting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9288607A23FA731900642EBD /* Minillq.imageMatting */ = {
+			isa = PBXGroup;
+			children = (
+				9288607B23FA731900642EBD /* AppDelegate.swift */,
+				9288607F23FA731900642EBD /* ViewController.swift */,
+				9288608123FA731900642EBD /* Main.storyboard */,
+				9288608423FA731A00642EBD /* Assets.xcassets */,
+				9288608623FA731A00642EBD /* LaunchScreen.storyboard */,
+				9288608923FA731A00642EBD /* Info.plist */,
+			);
+			path = Minillq.imageMatting;
+			sourceTree = "<group>";
+		};
+		C8CB3F9214FDB165135E2D4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E9E4DAEF8349A7FC863379F /* Pods-Minillq.imageMatting.debug.xcconfig */,
+				45A23E9D640A911236630048 /* Pods-Minillq.imageMatting.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EC3B93439ABCBFDD1E5C7AA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95000F010C20BB1D0684DCD9 /* Pods_Minillq_imageMatting.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9288607723FA731900642EBD /* Minillq.imageMatting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9288608C23FA731A00642EBD /* Build configuration list for PBXNativeTarget "Minillq.imageMatting" */;
+			buildPhases = (
+				CBD0130636EF190B55AA11E8 /* [CP] Check Pods Manifest.lock */,
+				9288607423FA731900642EBD /* Sources */,
+				9288607523FA731900642EBD /* Frameworks */,
+				9288607623FA731900642EBD /* Resources */,
+				AE60581AA95657FA87E6C7BB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Minillq.imageMatting;
+			productName = Minillq.imageMatting;
+			productReference = 9288607823FA731900642EBD /* Minillq.imageMatting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9288607023FA731900642EBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "古智鹏";
+				TargetAttributes = {
+					9288607723FA731900642EBD = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 9288607323FA731900642EBD /* Build configuration list for PBXProject "Minillq.imageMatting" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9288606F23FA731900642EBD;
+			productRefGroup = 9288607923FA731900642EBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9288607723FA731900642EBD /* Minillq.imageMatting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9288607623FA731900642EBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9288608823FA731A00642EBD /* LaunchScreen.storyboard in Resources */,
+				9288608523FA731A00642EBD /* Assets.xcassets in Resources */,
+				9288608323FA731900642EBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AE60581AA95657FA87E6C7BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Minillq.imageMatting/Pods-Minillq.imageMatting-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Minillq.imageMatting/Pods-Minillq.imageMatting-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Minillq.imageMatting/Pods-Minillq.imageMatting-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBD0130636EF190B55AA11E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Minillq.imageMatting-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9288607423FA731900642EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9288608023FA731900642EBD /* ViewController.swift in Sources */,
+				9288607C23FA731900642EBD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9288608123FA731900642EBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9288608223FA731900642EBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9288608623FA731A00642EBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9288608723FA731A00642EBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9288608A23FA731A00642EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9288608B23FA731A00642EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9288608D23FA731A00642EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E9E4DAEF8349A7FC863379F /* Pods-Minillq.imageMatting.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BYLX9G7HJ9;
+				INFOPLIST_FILE = Minillq.imageMatting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "girlsmile.Minillq-imageMatting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9288608E23FA731A00642EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45A23E9D640A911236630048 /* Pods-Minillq.imageMatting.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BYLX9G7HJ9;
+				INFOPLIST_FILE = Minillq.imageMatting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "girlsmile.Minillq-imageMatting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9288607323FA731900642EBD /* Build configuration list for PBXProject "Minillq.imageMatting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9288608A23FA731A00642EBD /* Debug */,
+				9288608B23FA731A00642EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9288608C23FA731A00642EBD /* Build configuration list for PBXNativeTarget "Minillq.imageMatting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9288608D23FA731A00642EBD /* Debug */,
+				9288608E23FA731A00642EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9288607023FA731900642EBD /* Project object */;
+}

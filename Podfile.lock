@@ -1,0 +1,58 @@
+PODS:
+  - Alamofire (4.9.1)
+  - JGProgressHUD (2.1)
+  - Permission/Core (3.1.2)
+  - Permission/Photos (3.1.2):
+    - Permission/Core
+  - Reachability (3.2)
+  - SDWebImage/Core (5.4.2)
+  - SDWebImage/MapKit (5.4.2):
+    - SDWebImage/Core
+  - SnapKit (4.2.0)
+  - STRegex (2.1.0)
+  - SwiftyJSON-flow (4.1.0)
+  - Toolkit (5.2.42):
+    - JGProgressHUD
+    - Reachability
+    - SnapKit
+    - STRegex
+    - SwiftyJSON-flow (= 4.1.0)
+  - TZImagePickerController (3.2.9)
+
+DEPENDENCIES:
+  - Alamofire
+  - Permission/Photos
+  - SDWebImage/MapKit
+  - SnapKit (= 4.2)
+  - Toolkit (~> 5.2.40)
+  - TZImagePickerController
+
+SPEC REPOS:
+  http://git.flowever.net/component/Specs.git:
+    - SwiftyJSON-flow
+    - Toolkit
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - JGProgressHUD
+    - Permission
+    - Reachability
+    - SDWebImage
+    - SnapKit
+    - STRegex
+    - TZImagePickerController
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  JGProgressHUD: aa403e9a5b45cae98903c4600cccdd98c0c3ec90
+  Permission: 4821359fb4d4367fb59aa16df38fbba5722ac842
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: 4ca2dc4eefae4224bea8f504251cda485a363745
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  STRegex: dfa420d93d8c1402956233b3879ec1fc14b45fbe
+  SwiftyJSON-flow: 6d8033763d84a8d9f5b2355ac9ada4a822b4ece5
+  Toolkit: 48257648f7ab73bf7f3ffd0426824ddd82628399
+  TZImagePickerController: 1f92968aa0e98a06b9e2eccca8560acc19254257
+
+PODFILE CHECKSUM: e07cdc5b20a14fcad52efb9e7c282bc1fe514594
+
+COCOAPODS: 1.7.5
