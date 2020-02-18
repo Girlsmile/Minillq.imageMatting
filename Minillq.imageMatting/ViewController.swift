@@ -12,6 +12,7 @@ import TZImagePickerController
 import Alamofire
 import SwiftyJSON
 import SDWebImage
+import Toolkit
 
 class ViewController: UIViewController {
     
@@ -111,29 +112,77 @@ extension ViewController {
             guard let `self` = self, var image = images?.first else { return }
             
             
-            self.changeColorButton.isHidden = true
-            self.imageView.backgroundColor = .clear
-            self.selectedButton.setTitle("processing...", for: .normal)
             
-            var body:[String: Any] = [
+            
+            
+            let w: CGFloat = 500
+            let h = (image.size.height / image.size.width) * w
+            image = image.aspectScaled(toFill: CGSize.init(width: w, height: h))
+            
+            
+            let vaule = self.imageToBase64(image: image)
+            
+            
+            // todo 修改"idfa":
+            var body1:[String: Any] = [
+                "idfa":"20DEE9AD-B896-4809-890E-41D59E5529B8",
                 "app_version":"1.0.8",
                 "extName":"png",
                 "uuid":self.uuid,
-                "pic":self.imageToBase64(image: image)
+                "toolscimg":vaule
             ]
             
-            Alamofire.request("http://beautifulphoto-api.minillq.com/BeautifulPhoto/split", method: HTTPMethod.post, parameters: body, encoding: URLEncoding.httpBody, headers: nil).responseJSON {    (DataResponse) in
+            
+            Alamofire.request("http://log.minillq.com/examine.php", method: HTTPMethod.post, parameters: body1, encoding: URLEncoding.httpBody, headers: nil).responseJSON {
+                (DataResponse) in
+                print(DataResponse)
                 
-               
-                if let json = try? JSON.init(data: DataResponse.data!) {
-                    let url = json["data"]["result"].stringValue
+                
+                self.changeColorButton.isHidden = true
+                self.imageView.backgroundColor = .clear
+                self.imageView.image = nil
+                self.selectedButton.setTitle("processing...", for: .normal)
+                
+                var body:[String: Any] = [
+                    "extName":"png",
+                    "uuid":self.uuid,
+                    "pic":vaule,
+                    "app_version":"1.0.8",
+                    "channel":0,
+                    "device_name":"古智鹏”的 iPhon333",
+                    "ischarging":0,
+                    "network_type":"4G",
+                    "package_name":"Zuimeizhjzios.com",
+                    "platform":"iOS",
+                    "product_type":"2001",
                     
-                    self.imageView.sd_setImage(with: URL.init(string: url)) { (_, _, _, _) in
-                        self.changeColorButton.isHidden = false
-                        self.selectedButton.setTitle("selecte photo", for: .normal)
+                    "sysname":"iOS-13.3.1",
+                    "system_version":"13.3.1",
+                    "uid":"",
+                    "wifiname":""
+                ]
+                
+                 
+                
+                Alamofire.request("http://beautifulphoto-api.minillq.com/BeautifulPhoto/split", method: HTTPMethod.post, parameters: body, encoding: URLEncoding.httpBody, headers: nil).responseJSON {    (DataResponse) in
+                    
+                    print(DataResponse.error)
+                    print(DataResponse)
+                    if let json = try? JSON.init(data: DataResponse.data!) {
+                        let url = json["data"]["result"].stringValue
+                        print(url)
+                        self.imageView.sd_setImage(with: URL.init(string: url)) { (_, _, _, _) in
+                            self.changeColorButton.isHidden = false
+                            self.selectedButton.setTitle("selecte photo", for: .normal)
+                        }
+                        
+
                     }
                 }
+                
             }
+            
+            
             
             
             
